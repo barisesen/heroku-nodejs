@@ -5,6 +5,6 @@ var express = require('express')
     res.send('Hello World!')
   })
 
-  app.listen(8080, function () {
+  app.listen(process.env.PORT, function () {
     console.log('Example app listening on port 3000!')
   })
